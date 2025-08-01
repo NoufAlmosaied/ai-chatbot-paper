@@ -1,64 +1,9 @@
-
-# Python cache
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-*.egg
-*.egg-info/
-dist/
-build/
-
-# Virtual environments
-venv/
-env/
-ENV/
-.venv
-
-# Environment variables
+*.py[cod]
+*$py.class
 .env
-.env.local
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS files
+*.so
+.Python
+venv/
+ENV/
 .DS_Store
-Thumbs.db
-
-# LaTeX auxiliary files
-*.aux
-*.log
-*.out
-*.toc
-*.lof
-*.lot
-*.bbl
-*.blg
-*.synctex.gz
-*.fls
-*.fdb_latexmk
-
-# Research paper files
-research-paper/
-
-# Large data files (keep in local only)
-data/processed/
-data/reports/
-data/raw/
-data/*.csv
-
-# Test outputs
-reports/
-results/
-testing_report.json
-
-# Logs
-*.log
-logs/
